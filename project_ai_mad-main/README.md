@@ -14,7 +14,7 @@ score array be like [1, 0, 1] then the performance array would be like [-1, -1, 
 be added at the last element of the array, and all previous values will be shifted one place left. The first value will be lost, as we have to analyze the performance
   of the last six gammes only. </li>
   
-  <li>The performance array will be stored in a SharedPreferences object. The Shared Preferences object is fetched at the start of the activity and an
+  <li>The performance array will be stored in a SharedPreferences objects. The Shared Preferences object is fetched at the start of the activity and an
     alert dialog is presetned to the user suggesting on his or her performances based on the last six games. </li>
 
   <li><b>sumOfScore</b> method should summing up the values of score array.</li>

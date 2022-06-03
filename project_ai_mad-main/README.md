@@ -21,7 +21,7 @@ be added at the last element of the array, and all previous values will be shift
 
 <li>A class <b>LR</b> is also provided with this project. The LR class has a getSlope method to provide the slope from the given data. The data must be input to the 
 <b>getSlope</b> method as a two-dimensional array (dataFrame). The first dimensions will be the predictor values 1, 2, 3, 4, 5, 6 and the corresponding response values will
-be performance values. The getSlope method is a static method, so you won't need to create object of the LR class to obtain slope. Just use the name of the class LR.
+be performance value. The getSlope method is a static method, so you won't need to create object of the LR class to obtain slope. Just use the name of the class LR.
   For example: LR.getSlope(dataFrame) would return a slope as a double value.</li>
 
 <li><b>dataPrep</b> methods generates a data-frame AKA two-dimensional array to be passed to the getSlope method.</li>
